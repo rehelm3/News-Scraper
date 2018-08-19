@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.typekit.net/nww1jpo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <title>News-Scraper</title>
+</head>
+<body class="bg">
+
+  <div class="container bg-gradient-light text-white my-200">
+    <div class=" times form-group ">
+        <HR COLOR="Red" WIDTH="40%">
+            <h4 style=" font-size:8vw">Search the NYT:</h4>
+            <input id="search-term"type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Enter Search Term(s)">
+
+            <HR COLOR="red" WIDTH="40%">
+
+      <!-- <label for="term">Terms:</label> -->
+    </div>
+    <div class="form-group ">
+      <label id="number-records">Number of Records to Retrieve:</label>
+      <input type="text" class="form-control" id="num-records" placeholder="(Optional)">
+    </div>
+    <div class="form-group">
+        <label item-render-buffer="start-yr">Start Year:</label>
+        <input type="text" class="form-control" id="start-year" placeholder="YYYYMMDD (Optional)">
+    </div>
+    <div class="form-group mb-50">
+        <label id="end-yr">End Year:</label>
+        <input type="text" class="form-control" id="end-year" placeholder="YYYYMMDD (Optional)">
+    </div>
+
+    <button type="submit" class="btn btn-secondary" id="search-button">Search</button>
+    <button type="submit" class="btn btn-secondary mb-50" id="clear-button">Clear Results</button>
+
+
+</form>
+<HR COLOR="red" WIDTH="40%">
+<h4 style=" font-size:8vw">Results:</h4>
+<HR COLOR="red" WIDTH="40%">
+
+<!-- Appended Content -->
+<div id = "results-1" class="results container bg-gradient-light text-white"></div>
+<br>
+<span id = "results-2"></span>
+<br>
+<span id = "results-3"></span>
+</div>
+
+
+</div>
+
+<div>
+  <a class="navbar-brand display-3" href="http://developer.nytimes.com" target="_blank"><img src="resources/img/poweredby_nytimes_65b.png" alt="NYT" width="65">
+  </a>
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
+
+  <!-- <script src="resources/js/ui.js"></script> -->
+  <script src="resources/js/app.js"></script>
+</body>
+</html>
