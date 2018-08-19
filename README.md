@@ -1,4 +1,5 @@
-# New York Times Article Scraper
+# News Scraper
 
-- Developed in Node, uses Express, Cheerio, Handlebars, and Mongoose (among others) to scrape articles from NYT. The user can save articles to access later, and save notes to them.
-- Deployed link: https://shielded-stream-52096.herokuapp.com/
+An app which scrapes articles form the NYT and allows users to save them using mongo and cheerio.
+
+Heroku deploy: https://shielded-stream-52096.herokuapp.com/

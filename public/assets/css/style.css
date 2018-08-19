@@ -1,11 +1,7 @@
 body {
     background-image: url("/assets/images/background2.jpg");
-    padding-top: 70px;
+    padding-top: 2000px;
 }
-
-/* #navbar {
-    background-color: brown;
-} */
 
 .deleteNote {
 	display: inline-block;
@@ -13,13 +9,9 @@ body {
 
 .previousNotes {
     display: inline-block;
-    width: 90%
+    width: 70%
 }
 
 #scrape {
-    margin: 8px 0px;
+    margin: 10px 0px;
 }
-
-/* #saved-jumbo {
-    background-image: url("/assets/images/you-are-here.png");
-} */
